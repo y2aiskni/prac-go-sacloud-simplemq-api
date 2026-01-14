@@ -1,0 +1,9 @@
+# lengthで必要
+Sacloud:
+  AccessToken: THISISACCESSTOKEN
+  AccessTokenSecret: THISISACCESSTOKENSECRET
+# enqueue, dequeue, peekで必要
+  Simplemq:
+    ResourceID: 123456789
+    QueueName: THISISQUEUENAME
+    APIKey: SERVICEAPIKEY
