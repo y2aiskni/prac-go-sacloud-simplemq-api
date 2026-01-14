@@ -9,6 +9,13 @@
 
 ## ここにあるもの
 
+> [!CAUTION]
+> APIの認識を間違えたまま作ってしまっています。
+>
+> - receiveはデキューであり、削除はack
+>
+> 以下の内容とCLIは間違っています。(要修正)
+
 https://github.com/sacloud/simplemq-api-go を使ってエンキュー・デキュー・ピーク・長さ取得を行うCLIを簡単に作った。\
 ビルドは`make build`。各CLIの実行にはconfig.yamlの作成が必要。
 
